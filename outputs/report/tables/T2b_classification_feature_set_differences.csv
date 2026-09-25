@@ -1,0 +1,19 @@
+Metric,Model,Comparison,Mean difference,CI low,CI high,Share of resamples improved
+ROC-AUC,Logistic Regression,(b) - (a),0.0749,0.0641,0.0856,1.0
+ROC-AUC,Logistic Regression,(c) - (b),0.0036,-0.0001,0.0074,0.972
+ROC-AUC,Logistic Regression,(c) - (a),0.0785,0.068,0.089,1.0
+ROC-AUC,Decision Tree,(b) - (a),0.0827,0.0687,0.0967,1.0
+ROC-AUC,Decision Tree,(c) - (b),-0.0024,-0.0087,0.0035,0.226
+ROC-AUC,Decision Tree,(c) - (a),0.0803,0.0655,0.0942,1.0
+ROC-AUC,Random Forest,(b) - (a),0.0949,0.0832,0.1059,1.0
+ROC-AUC,Random Forest,(c) - (b),-0.0018,-0.0035,-0.0002,0.01
+ROC-AUC,Random Forest,(c) - (a),0.0931,0.0814,0.104,1.0
+F1 @tuned,Logistic Regression,(b) - (a),-0.0208,-0.0367,-0.0046,0.006
+F1 @tuned,Logistic Regression,(c) - (b),0.0119,0.0033,0.0208,0.998
+F1 @tuned,Logistic Regression,(c) - (a),-0.0089,-0.0231,0.0046,0.09
+F1 @tuned,Decision Tree,(b) - (a),0.0049,-0.0102,0.0182,0.756
+F1 @tuned,Decision Tree,(c) - (b),0.0,0.0,0.0,0.0
+F1 @tuned,Decision Tree,(c) - (a),0.0049,-0.0102,0.0182,0.756
+F1 @tuned,Random Forest,(b) - (a),0.0096,-0.0064,0.0244,0.9
+F1 @tuned,Random Forest,(c) - (b),0.0139,0.0024,0.0257,0.992
+F1 @tuned,Random Forest,(c) - (a),0.0235,0.0098,0.0366,1.0

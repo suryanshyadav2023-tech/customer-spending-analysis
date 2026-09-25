@@ -1,0 +1,55 @@
+Task,Feature set,Model,Metric,Honest (features Oct 1-24),Leaky (features Oct 1-31),Inflation (leaky - honest)
+Classification,(a) RFM,Logistic Regression,ROC-AUC,0.7031,1.0,0.2969
+Classification,(a) RFM,Logistic Regression,PR-AUC,0.1602,1.0,0.8398
+Classification,(a) RFM,Logistic Regression,F1 @0.5,0.1785,0.9101,0.7317
+Classification,(a) RFM,Decision Tree,ROC-AUC,0.6936,1.0,0.3064
+Classification,(a) RFM,Decision Tree,PR-AUC,0.1621,1.0,0.8379
+Classification,(a) RFM,Decision Tree,F1 @0.5,0.179,1.0,0.821
+Classification,(a) RFM,Random Forest,ROC-AUC,0.7022,1.0,0.2978
+Classification,(a) RFM,Random Forest,PR-AUC,0.1703,1.0,0.8297
+Classification,(a) RFM,Random Forest,F1 @0.5,0.1817,1.0,0.8183
+Regression,(a) RFM,Linear Regression,R²,-0.1416,-0.0368,0.1048
+Regression,(a) RFM,Linear Regression,RMSE,196.5335,187.2947,-9.2388
+Regression,(a) RFM,Linear Regression,MAE,23.5623,19.7057,-3.8566
+Regression,(a) RFM,Decision Tree,R²,0.1111,0.4421,0.331
+Regression,(a) RFM,Decision Tree,RMSE,173.4235,137.3902,-36.0333
+Regression,(a) RFM,Decision Tree,MAE,21.8236,6.6778,-15.1458
+Regression,(a) RFM,Random Forest,R²,0.1643,0.5387,0.3744
+Regression,(a) RFM,Random Forest,RMSE,168.1526,124.9352,-43.2174
+Regression,(a) RFM,Random Forest,MAE,21.5005,6.2215,-15.279
+Classification,(b) RFM + behavioral,Logistic Regression,ROC-AUC,0.7783,1.0,0.2217
+Classification,(b) RFM + behavioral,Logistic Regression,PR-AUC,0.1688,0.9999,0.8311
+Classification,(b) RFM + behavioral,Logistic Regression,F1 @0.5,0.1538,0.9088,0.7551
+Classification,(b) RFM + behavioral,Decision Tree,ROC-AUC,0.7766,1.0,0.2234
+Classification,(b) RFM + behavioral,Decision Tree,PR-AUC,0.1822,1.0,0.8178
+Classification,(b) RFM + behavioral,Decision Tree,F1 @0.5,0.1235,1.0,0.8765
+Classification,(b) RFM + behavioral,Random Forest,ROC-AUC,0.7973,1.0,0.2027
+Classification,(b) RFM + behavioral,Random Forest,PR-AUC,0.2026,1.0,0.7974
+Classification,(b) RFM + behavioral,Random Forest,F1 @0.5,0.1492,1.0,0.8508
+Regression,(b) RFM + behavioral,Linear Regression,R²,-0.1428,-0.0424,0.1004
+Regression,(b) RFM + behavioral,Linear Regression,RMSE,196.6337,187.7946,-8.8391
+Regression,(b) RFM + behavioral,Linear Regression,MAE,23.622,21.0719,-2.5501
+Regression,(b) RFM + behavioral,Decision Tree,R²,0.096,0.4369,0.3409
+Regression,(b) RFM + behavioral,Decision Tree,RMSE,174.883,138.0224,-36.8605
+Regression,(b) RFM + behavioral,Decision Tree,MAE,21.7639,6.7228,-15.0412
+Regression,(b) RFM + behavioral,Random Forest,R²,0.1542,0.5368,0.3825
+Regression,(b) RFM + behavioral,Random Forest,RMSE,169.1603,125.1921,-43.9681
+Regression,(b) RFM + behavioral,Random Forest,MAE,21.4072,6.2788,-15.1284
+Classification,(c) RFM + behavioral + segment,Logistic Regression,ROC-AUC,0.7819,1.0,0.2181
+Classification,(c) RFM + behavioral + segment,Logistic Regression,PR-AUC,0.1803,0.9999,0.8196
+Classification,(c) RFM + behavioral + segment,Logistic Regression,F1 @0.5,0.1234,0.9092,0.7858
+Classification,(c) RFM + behavioral + segment,Decision Tree,ROC-AUC,0.7743,1.0,0.2257
+Classification,(c) RFM + behavioral + segment,Decision Tree,PR-AUC,0.183,1.0,0.817
+Classification,(c) RFM + behavioral + segment,Decision Tree,F1 @0.5,0.136,1.0,0.864
+Classification,(c) RFM + behavioral + segment,Random Forest,ROC-AUC,0.7955,1.0,0.2045
+Classification,(c) RFM + behavioral + segment,Random Forest,PR-AUC,0.2029,1.0,0.7971
+Classification,(c) RFM + behavioral + segment,Random Forest,F1 @0.5,0.1443,1.0,0.8557
+Regression,(c) RFM + behavioral + segment,Linear Regression,R²,-0.1427,-0.0413,0.1014
+Regression,(c) RFM + behavioral + segment,Linear Regression,RMSE,196.6237,187.6997,-8.9241
+Regression,(c) RFM + behavioral + segment,Linear Regression,MAE,23.6345,21.1873,-2.4472
+Regression,(c) RFM + behavioral + segment,Decision Tree,R²,0.0961,0.4369,0.3409
+Regression,(c) RFM + behavioral + segment,Decision Tree,RMSE,174.8802,138.0224,-36.8577
+Regression,(c) RFM + behavioral + segment,Decision Tree,MAE,21.7415,6.7228,-15.0188
+Regression,(c) RFM + behavioral + segment,Random Forest,R²,0.1541,0.5368,0.3826
+Regression,(c) RFM + behavioral + segment,Random Forest,RMSE,169.1687,125.1909,-43.9778
+Regression,(c) RFM + behavioral + segment,Random Forest,MAE,21.4057,6.2786,-15.1271

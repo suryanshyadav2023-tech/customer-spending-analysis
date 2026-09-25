@@ -1,0 +1,8 @@
+k,inertia,silhouette,elbow_k,best_silhouette_k,chosen_k,decision
+2,1662551.1151518326,0.6031752411722562,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+3,1277173.0837763601,0.3869398341015608,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+4,1118048.3809319495,0.3935050802109196,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+5,1008881.6557246807,0.29827487789040186,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+6,919343.1349726205,0.3018215004558906,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+7,845262.6657492638,0.2819665505867121,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"
+8,787878.4633558256,0.2903521458295025,4,2,3,"ambiguous (elbow=4, silhouette=2) -> default K=3"

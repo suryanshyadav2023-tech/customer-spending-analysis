@@ -1,0 +1,15 @@
+stat,value
+raw_rows,42448764
+raw_users,3022290
+sample_rows,4224899
+sample_users,301732
+sample_user_share,0.09983555515850563
+min_event_time,2019-10-01 00:00:00
+max_event_time,2019-10-31 23:59:55
+exact_duplicate_rows_in_sample,3217
+missing_session_rows_in_sample,0
+purchase_rows_with_nonpositive_price,0
+events_view,4058093
+events_cart,92978
+events_remove_from_cart,0
+events_purchase,73828

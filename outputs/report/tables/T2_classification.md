@@ -1,0 +1,17 @@
+# T2. Classification: will_purchase (test set)
+
+| Feature set | Model | ROC-AUC [95% CI] | PR-AUC [95% CI] | F1 @0.5 [95% CI] | Precision / Recall @0.5 | Tuned threshold | F1 @tuned [95% CI] | Precision / Recall @tuned |
+|---|---|---|---|---|---|---|---|---|
+| (a) RFM | Logistic Regression | 0.7031 [0.6890, 0.7174] | 0.1602 [0.1403, 0.1829] | 0.1785 [0.1655, 0.1907] | 0.1092 / 0.4882 | 0.8485 | 0.2522 [0.2287, 0.2728] | 0.2678 / 0.2382 |
+| (a) RFM | Decision Tree | 0.6936 [0.6798, 0.7088] | 0.1621 [0.1407, 0.1836] | 0.1790 [0.1667, 0.1915] | 0.1106 / 0.4687 | 0.8781 | 0.2331 [0.2109, 0.2537] | 0.2796 / 0.1998 |
+| (a) RFM | Random Forest | 0.7022 [0.6883, 0.7169] | 0.1703 [0.1487, 0.1930] | 0.1817 [0.1690, 0.1947] | 0.1123 / 0.4765 | 0.8190 | 0.2347 [0.2129, 0.2544] | 0.2305 / 0.2390 |
+| (b) RFM + behavioral | Logistic Regression | 0.7783 [0.7628, 0.7912] | 0.1688 [0.1484, 0.1904] | 0.1538 [0.1430, 0.1626] | 0.0883 / 0.5956 | 0.8710 | 0.2312 [0.2084, 0.2505] | 0.2253 / 0.2375 |
+| (b) RFM + behavioral | Decision Tree | 0.7766 [0.7627, 0.7902] | 0.1822 [0.1606, 0.2046] | 0.1235 [0.1156, 0.1308] | 0.0679 / 0.6795 | 0.8836 | 0.2381 [0.2148, 0.2605] | 0.3034 / 0.1959 |
+| (b) RFM + behavioral | Random Forest | 0.7973 [0.7840, 0.8107] | 0.2026 [0.1801, 0.2264] | 0.1492 [0.1395, 0.1580] | 0.0846 / 0.6348 | 0.8578 | 0.2445 [0.2206, 0.2691] | 0.3493 / 0.1881 |
+| (c) RFM + behavioral + segment | Logistic Regression | 0.7819 [0.7663, 0.7951] | 0.1803 [0.1592, 0.2024] | 0.1234 [0.1161, 0.1305] | 0.0678 / 0.6889 | 0.8567 | 0.2430 [0.2204, 0.2629] | 0.2408 / 0.2453 |
+| (c) RFM + behavioral + segment | Decision Tree | 0.7743 [0.7588, 0.7893] | 0.1830 [0.1612, 0.2055] | 0.1360 [0.1272, 0.1440] | 0.0758 / 0.6583 | 0.8836 | 0.2381 [0.2148, 0.2605] | 0.3034 / 0.1959 |
+| (c) RFM + behavioral + segment | Random Forest | 0.7955 [0.7821, 0.8090] | 0.2029 [0.1805, 0.2261] | 0.1443 [0.1352, 0.1531] | 0.0813 / 0.6403 | 0.8275 | 0.2582 [0.2327, 0.2806] | 0.2937 / 0.2304 |
+
+- Test set: 51,116 users. 95% CI = percentile interval over 500 paired bootstrap resamples of test users (seed 42).
+- Tuned threshold = threshold maximising F1 on the validation split (part of train); never chosen on test.
+- All classifiers use class_weight='balanced'. PR-AUC = average precision.

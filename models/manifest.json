@@ -1,0 +1,107 @@
+{
+  "note": "All models fit on the train split (seed 42). Feature values are raw obs-window features (Oct 1-24); linear models include their StandardScaler inside the Pipeline.",
+  "segmentation": {
+    "file": "segmentation.joblib"
+  },
+  "prior_correction": {
+    "n1_train_positives": 5103,
+    "n0_train_negatives": 199358,
+    "formula": "odds = p/(1-p) * n1/n0; p_corrected = odds/(1+odds)"
+  },
+  "final": {
+    "feature_set": "c_rfm_behav_cluster",
+    "rule": "feature set of the Random Forest classifier with the highest validation ROC-AUC (also the SHAP model); used by the demo and the worked example"
+  },
+  "feature_sets": {
+    "a_rfm": {
+      "columns": [
+        "recency_days",
+        "has_purchased",
+        "frequency",
+        "monetary"
+      ],
+      "hurdle_stage1_classifier": {
+        "model": "LogisticRegression",
+        "file": "hurdle_stage1_LogisticRegression_a_rfm.joblib",
+        "rule": "highest validation ROC-AUC among the three classifiers"
+      },
+      "hurdle_stage2_regressor": {
+        "file": "hurdle_stage2_a_rfm.joblib",
+        "trained_on": "5103 train users with future_spend > 0"
+      },
+      "single_stage_rf_classifier": {
+        "file": "rf_clf_a_rfm.joblib"
+      },
+      "single_stage_rf_regressor": {
+        "file": "rf_reg_a_rfm.joblib"
+      }
+    },
+    "b_rfm_behav": {
+      "columns": [
+        "recency_days",
+        "has_purchased",
+        "frequency",
+        "monetary",
+        "n_sessions",
+        "n_views",
+        "n_carts",
+        "avg_session_duration",
+        "cart_to_view_ratio",
+        "purchase_to_cart_ratio",
+        "days_active",
+        "n_categories",
+        "days_since_last_event"
+      ],
+      "hurdle_stage1_classifier": {
+        "model": "RandomForest",
+        "file": "rf_clf_b_rfm_behav.joblib",
+        "rule": "highest validation ROC-AUC among the three classifiers"
+      },
+      "hurdle_stage2_regressor": {
+        "file": "hurdle_stage2_b_rfm_behav.joblib",
+        "trained_on": "5103 train users with future_spend > 0"
+      },
+      "single_stage_rf_classifier": {
+        "file": "rf_clf_b_rfm_behav.joblib"
+      },
+      "single_stage_rf_regressor": {
+        "file": "rf_reg_b_rfm_behav.joblib"
+      }
+    },
+    "c_rfm_behav_cluster": {
+      "columns": [
+        "recency_days",
+        "has_purchased",
+        "frequency",
+        "monetary",
+        "n_sessions",
+        "n_views",
+        "n_carts",
+        "avg_session_duration",
+        "cart_to_view_ratio",
+        "purchase_to_cart_ratio",
+        "days_active",
+        "n_categories",
+        "days_since_last_event",
+        "seg_recent_buyers",
+        "seg_engaged_browsers",
+        "seg_casual_visitors"
+      ],
+      "hurdle_stage1_classifier": {
+        "model": "RandomForest",
+        "file": "rf_clf_c_rfm_behav_cluster.joblib",
+        "rule": "highest validation ROC-AUC among the three classifiers"
+      },
+      "hurdle_stage2_regressor": {
+        "file": "hurdle_stage2_c_rfm_behav_cluster.joblib",
+        "trained_on": "5103 train users with future_spend > 0"
+      },
+      "single_stage_rf_classifier": {
+        "file": "rf_clf_c_rfm_behav_cluster.joblib"
+      },
+      "single_stage_rf_regressor": {
+        "file": "rf_reg_c_rfm_behav_cluster.joblib"
+      }
+    }
+  }
+}

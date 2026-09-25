@@ -1,0 +1,4 @@
+Segment,Users,Share of users,Train users,Purchased Oct 1-24 (share),Mean monetary,Mean frequency,Mean recency (days),Mean sessions,Mean product views,Mean add-to-cart events,Mean days active,Mean session duration (min),Mean categories viewed,Mean days since last event,Mean cart-to-view ratio,Mean purchase-to-cart ratio,Oct 25-31 purchase rate,Oct 25-31 mean spend
+Casual visitors,163717,0.6406,130792,0.0012,0.0528,0.0012,59.9502,1.3407,3.295,0.0333,1.1626,2.3877,1.2932,11.2243,0.0107,0.0,0.0088,3.5242
+Engaged browsers,63493,0.2484,50967,0.0002,0.0007,0.0002,59.994,4.9889,26.7081,0.2248,3.3578,71.5357,4.649,6.3018,0.0113,0.0,0.028,9.6252
+Recent buyers,28367,0.111,22702,0.9988,654.0017,2.0572,10.5608,6.4736,33.3303,1.9676,3.5805,9.443,4.1489,7.672,0.1599,0.5961,0.1117,77.963

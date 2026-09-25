@@ -1,0 +1,26 @@
+# T1. Dataset summary
+
+| Item | Value |
+|---|---|
+| Source file | 2019-Oct.csv (Kaggle: mkechinov/ecommerce-behavior-data-from-multi-category-store) |
+| Raw events | 42,448,764 |
+| Raw users | 3,022,290 |
+| Sampling rule | user_id % 10 == 0 |
+| Sampled events | 4,224,899 |
+| Sampled users | 301,732 |
+| Sample fraction (users) | 0.0998 |
+| Observation window (features) | 2019-10-01 to 2019-10-24 23:59:59 UTC |
+| Events in observation window | 3,314,829 |
+| Prediction window (targets) | 2019-10-25 to 2019-10-31 23:59:59 UTC |
+| Events in prediction window | 910,070 |
+| Population (users with >= 1 event in observation window) | 255,577 |
+| Buyers in prediction window (population) | 6,379 |
+| Buy rate in prediction window (all / train / test) | 0.0250 / 0.0250 / 0.0250 |
+| Mean spend among prediction-window buyers | 532.949 |
+| Median spend among prediction-window buyers | 225.870 |
+| Train users (all) | 204,461 |
+|   of which inner-train users | 163,568 |
+|   of which validation users | 40,893 |
+| Test users | 51,116 |
+| Test buyers (prediction window) | 1,276 |
+

@@ -1,0 +1,30 @@
+# dataset and derived data (download instructions in README.md)
+data/
+*.parquet
+*.zip
+
+# internal working notes (kept locally)
+context.md
+
+# secrets
+kaggle.json
+.kaggle/
+.env
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# node (report template builder)
+node_modules/
+
+# logs / OS files
+*.log
+.DS_Store
+Thumbs.db
+~$*

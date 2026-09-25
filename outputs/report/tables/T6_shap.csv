@@ -1,0 +1,41 @@
+Scope,Ranking,n users,Rank,Feature,Mean |SHAP|
+Overall,all features,2000,1,Days since last event,0.05278
+Overall,all features,2000,2,Recency (days since last purchase),0.04282
+Overall,all features,2000,3,Segment: Casual visitors,0.03949
+Overall,all features,2000,4,Monetary (total purchase value),0.03112
+Overall,all features,2000,5,Avg session duration (min),0.03047
+Overall,all features,2000,6,Frequency (purchases),0.02256
+Overall,all features,2000,7,Has purchased (0/1),0.02141
+Overall,all features,2000,8,Product views,0.01939
+Overall,all features,2000,9,Days active,0.01736
+Overall,all features,2000,10,Segment: Engaged browsers,0.01493
+Segment: Casual visitors,all features,1000,1,Days since last event,0.04827
+Segment: Casual visitors,all features,1000,2,Recency (days since last purchase),0.04305
+Segment: Casual visitors,all features,1000,3,Segment: Casual visitors,0.03873
+Segment: Casual visitors,all features,1000,4,Avg session duration (min),0.03452
+Segment: Casual visitors,all features,1000,5,Monetary (total purchase value),0.03058
+Segment: Casual visitors,excluding seg dummies,1000,1,Days since last event,0.04827
+Segment: Casual visitors,excluding seg dummies,1000,2,Recency (days since last purchase),0.04305
+Segment: Casual visitors,excluding seg dummies,1000,3,Avg session duration (min),0.03452
+Segment: Casual visitors,excluding seg dummies,1000,4,Monetary (total purchase value),0.03058
+Segment: Casual visitors,excluding seg dummies,1000,5,Frequency (purchases),0.02199
+Segment: Engaged browsers,all features,1000,1,Days since last event,0.06175
+Segment: Engaged browsers,all features,1000,2,Segment: Casual visitors,0.04327
+Segment: Engaged browsers,all features,1000,3,Recency (days since last purchase),0.03948
+Segment: Engaged browsers,all features,1000,4,Monetary (total purchase value),0.02519
+Segment: Engaged browsers,all features,1000,5,Segment: Engaged browsers,0.0229
+Segment: Engaged browsers,excluding seg dummies,1000,1,Days since last event,0.06175
+Segment: Engaged browsers,excluding seg dummies,1000,2,Recency (days since last purchase),0.03948
+Segment: Engaged browsers,excluding seg dummies,1000,3,Monetary (total purchase value),0.02519
+Segment: Engaged browsers,excluding seg dummies,1000,4,Frequency (purchases),0.01996
+Segment: Engaged browsers,excluding seg dummies,1000,5,Days active,0.0185
+Segment: Recent buyers,all features,1000,1,Days since last event,0.0605
+Segment: Recent buyers,all features,1000,2,Recency (days since last purchase),0.05172
+Segment: Recent buyers,all features,1000,3,Monetary (total purchase value),0.04686
+Segment: Recent buyers,all features,1000,4,Has purchased (0/1),0.04267
+Segment: Recent buyers,all features,1000,5,Segment: Casual visitors,0.03369
+Segment: Recent buyers,excluding seg dummies,1000,1,Days since last event,0.0605
+Segment: Recent buyers,excluding seg dummies,1000,2,Recency (days since last purchase),0.05172
+Segment: Recent buyers,excluding seg dummies,1000,3,Monetary (total purchase value),0.04686
+Segment: Recent buyers,excluding seg dummies,1000,4,Has purchased (0/1),0.04267
+Segment: Recent buyers,excluding seg dummies,1000,5,Frequency (purchases),0.03276

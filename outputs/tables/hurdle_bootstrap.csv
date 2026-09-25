@@ -1,0 +1,13 @@
+feature_set,comparison,metric,mean_diff,ci95_low,ci95_high,share_of_resamples_hurdle_better
+a_rfm,Hurdle (prior-corrected) minus RandomForest (single-stage),RMSE,7.368422139178658,0.5192823732315903,14.88006330594881,0.018
+a_rfm,Hurdle (prior-corrected) minus RandomForest (single-stage),MAE,0.5127689284820699,0.19224648483476675,0.8724627764271122,0.002
+a_rfm,Hurdle (prior-corrected) minus LinearRegression (single-stage),RMSE,-17.450738260668768,-106.11968928699292,43.422789540871705,0.598
+a_rfm,Hurdle (prior-corrected) minus LinearRegression (single-stage),MAE,-1.5329145141473963,-2.7057889358183114,-0.7788760068581472,1.0
+b_rfm_behav,Hurdle (prior-corrected) minus RandomForest (single-stage),RMSE,-5.0891514661706685,-10.882459374245258,-0.07582603325662675,0.978
+b_rfm_behav,Hurdle (prior-corrected) minus RandomForest (single-stage),MAE,-2.141287713471576,-2.4398528845709717,-1.8427669772934905,1.0
+b_rfm_behav,Hurdle (prior-corrected) minus LinearRegression (single-stage),RMSE,-28.950206791657763,-125.04461063718561,41.18748337364478,0.77
+b_rfm_behav,Hurdle (prior-corrected) minus LinearRegression (single-stage),MAE,-4.341154722056527,-5.710182302286788,-3.3443004112898262,1.0
+c_rfm_behav_cluster,Hurdle (prior-corrected) minus RandomForest (single-stage),RMSE,-5.670551717446224,-11.175703409319574,-0.853943565470408,0.998
+c_rfm_behav_cluster,Hurdle (prior-corrected) minus RandomForest (single-stage),MAE,-2.11530636971107,-2.4082221128468304,-1.8243887856642627,1.0
+c_rfm_behav_cluster,Hurdle (prior-corrected) minus LinearRegression (single-stage),RMSE,-29.51350344290493,-125.3292442787085,39.98665963166366,0.772
+c_rfm_behav_cluster,Hurdle (prior-corrected) minus LinearRegression (single-stage),MAE,-4.329578262771107,-5.701264066580581,-3.316727899572854,1.0

@@ -1,0 +1,13 @@
+Feature set,Comparison,Metric,Mean difference,CI low,CI high,Share of resamples hurdle better
+(a) RFM,Hurdle (prior-corrected) minus Random Forest (single-stage),RMSE,7.3684,0.5193,14.8801,0.018
+(a) RFM,Hurdle (prior-corrected) minus Random Forest (single-stage),MAE,0.5128,0.1922,0.8725,0.002
+(a) RFM,Hurdle (prior-corrected) minus Linear Regression (single-stage),RMSE,-17.4507,-106.1197,43.4228,0.598
+(a) RFM,Hurdle (prior-corrected) minus Linear Regression (single-stage),MAE,-1.5329,-2.7058,-0.7789,1.0
+(b) RFM + behavioral,Hurdle (prior-corrected) minus Random Forest (single-stage),RMSE,-5.0892,-10.8825,-0.0758,0.978
+(b) RFM + behavioral,Hurdle (prior-corrected) minus Random Forest (single-stage),MAE,-2.1413,-2.4399,-1.8428,1.0
+(b) RFM + behavioral,Hurdle (prior-corrected) minus Linear Regression (single-stage),RMSE,-28.9502,-125.0446,41.1875,0.77
+(b) RFM + behavioral,Hurdle (prior-corrected) minus Linear Regression (single-stage),MAE,-4.3412,-5.7102,-3.3443,1.0
+(c) RFM + behavioral + segment,Hurdle (prior-corrected) minus Random Forest (single-stage),RMSE,-5.6706,-11.1757,-0.8539,0.998
+(c) RFM + behavioral + segment,Hurdle (prior-corrected) minus Random Forest (single-stage),MAE,-2.1153,-2.4082,-1.8244,1.0
+(c) RFM + behavioral + segment,Hurdle (prior-corrected) minus Linear Regression (single-stage),RMSE,-29.5135,-125.3292,39.9867,0.772
+(c) RFM + behavioral + segment,Hurdle (prior-corrected) minus Linear Regression (single-stage),MAE,-4.3296,-5.7013,-3.3167,1.0

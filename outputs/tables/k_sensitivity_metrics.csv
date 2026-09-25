@@ -1,0 +1,22 @@
+k,feature_set,task,model,roc_auc,MAE,RMSE,R2
+2,c_rfm_behav_cluster,classification,LogisticRegression,0.7780928752572495,,,
+2,c_rfm_behav_cluster,classification,DecisionTree,0.77656444195092,,,
+2,c_rfm_behav_cluster,classification,RandomForest,0.7968383859699,,,
+2,c_rfm_behav_cluster,regression,LinearRegression (single-stage),,23.622311143368975,196.63093353040242,-0.1427766306784719
+2,c_rfm_behav_cluster,regression,DecisionTree (single-stage),,21.7639368335663,174.88295708429868,0.09603285802575656
+2,c_rfm_behav_cluster,regression,RandomForest (single-stage),,21.406729167085956,169.1605784538518,0.1542227647052904
+2,c_rfm_behav_cluster,regression,Hurdle (stage 1 = RandomForest),,19.353081326554744,164.02775950624357,0.20477069827170102
+3,c_rfm_behav_cluster,classification,LogisticRegression,0.7818824470279817,,,
+3,c_rfm_behav_cluster,classification,DecisionTree,0.7742905668043696,,,
+3,c_rfm_behav_cluster,classification,RandomForest,0.7955134250919558,,,
+3,c_rfm_behav_cluster,regression,LinearRegression (single-stage),,23.634512679026003,196.62373916208466,-0.14269300797036055
+3,c_rfm_behav_cluster,regression,DecisionTree (single-stage),,21.74154132007967,174.88015473730238,0.09606182836513011
+3,c_rfm_behav_cluster,regression,RandomForest (single-stage),,21.405706926740603,169.16870176539115,0.15414153210365877
+3,c_rfm_behav_cluster,regression,Hurdle (stage 1 = RandomForest),,19.29573350636659,163.70117549855965,0.20793419485221531
+4,c_rfm_behav_cluster,classification,LogisticRegression,0.7821800451098688,,,
+4,c_rfm_behav_cluster,classification,DecisionTree,0.7778435822217302,,,
+4,c_rfm_behav_cluster,classification,RandomForest,0.7955177885849137,,,
+4,c_rfm_behav_cluster,regression,LinearRegression (single-stage),,23.644246332440442,196.5903306660693,-0.1423047292026156
+4,c_rfm_behav_cluster,regression,DecisionTree (single-stage),,21.73001542491264,174.88024925221293,0.09606085128847253
+4,c_rfm_behav_cluster,regression,RandomForest (single-stage),,21.404118897893966,169.167523204149,0.15415331788345865
+4,c_rfm_behav_cluster,regression,Hurdle (stage 1 = RandomForest),,19.28443186658156,163.95050325854294,0.20551961984416145

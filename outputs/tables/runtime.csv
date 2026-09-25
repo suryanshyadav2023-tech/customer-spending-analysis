@@ -1,0 +1,11 @@
+step,seconds,note
+01_sample.py,83.0,not rerun; time from an earlier --resample run (data/processed/run_all.log)
+02_features.py,19.919549465179443,this run
+03_cluster.py,54.014177560806274,this run
+04_models.py,297.7637040615082,this run
+05_explain.py,197.46562123298645,this run
+06_k_sensitivity.py,195.24475240707397,this run
+07_report.py,2.775791883468628,this run
+08_results.py,0.7159919738769531,this run
+09_verify_models.py,3.100398063659668,this run
+total (steps run in this invocation),771.0213048458099,

@@ -1,0 +1,24 @@
+Files not included in this repository. See README.md to regenerate them.
+
+data/raw/2019-Oct.csv                            Dataset excluded
+data/raw/download.log                            Download log
+data/raw/.complete/                              Download marker
+data/processed/sample.parquet                    Derived data
+data/processed/features.parquet                  Derived data
+data/processed/features_leaky.parquet            Derived data
+data/processed/clusters.parquet                  Derived data
+data/processed/test_predictions.parquet          Derived data
+data/processed/worked_example_users.csv          Derived data
+data/processed/01_sample.log                     Run log
+data/processed/02_features.log                   Run log
+data/processed/03_cluster.log                    Run log
+data/processed/04_models.log                     Run log
+data/processed/05_explain.log                    Run log
+data/processed/06_k_sensitivity.log              Run log
+data/processed/run_all.log                       Run log
+data/processed/run_all_final.log                 Run log
+data/processed/run_all_r3.log                    Run log
+data/processed/streamlit_launch.log              Run log
+context.md                                       Internal notes
+src/__pycache__/                                 Python cache
+tools/report_template/node_modules/              Node dependencies

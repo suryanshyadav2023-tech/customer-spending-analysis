@@ -1,0 +1,5 @@
+part,users,buyers_oct25_31
+train (all),204461,5103
+inner train (model choice / thresholds),163568,4082
+validation (part of train),40893,1021
+test,51116,1276

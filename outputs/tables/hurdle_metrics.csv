@@ -1,0 +1,28 @@
+feature_set,subset,n,model,stage1_classifier,MAE,RMSE,R2
+a_rfm,all_test_users,51116,LinearRegression (single-stage),LogisticRegression,23.56232630061328,196.533497850187,-0.14164436091153498
+a_rfm,all_test_users,51116,RandomForest (single-stage),LogisticRegression,21.500509120099835,168.15259187194417,0.16427229393849696
+a_rfm,all_test_users,51116,"Hurdle: P[LogisticRegression, prior-corrected] x E[spend|buy]",LogisticRegression,22.016905114417746,175.35148335868806,0.09118276052256546
+a_rfm,all_test_users,51116,"Hurdle: P[LogisticRegression, raw balanced] x E[spend|buy]",LogisticRegression,162.95023956634358,255.27337512258208,-0.9260551102457508
+a_rfm,test_buyers_only,1276,LinearRegression (single-stage),LogisticRegression,429.2906803526311,859.0921049513763,0.3361350454758212
+a_rfm,test_buyers_only,1276,RandomForest (single-stage),LogisticRegression,440.614555666585,987.8473715142667,0.12223151465883142
+a_rfm,test_buyers_only,1276,"Hurdle: P[LogisticRegression, prior-corrected] x E[spend|buy]",LogisticRegression,451.075266854027,1009.733986245436,0.08290519033597898
+a_rfm,test_buyers_only,1276,"Hurdle: P[LogisticRegression, raw balanced] x E[spend|buy]",LogisticRegression,387.2626290591542,921.0087035736951,0.23699434686196907
+a_rfm,test_buyers_only,1276,Stage-2 RF alone: E[spend|buy],,418.9461778795203,906.2186337413796,0.2613031230860122
+b_rfm_behav,all_test_users,51116,LinearRegression (single-stage),RandomForest,23.621993985611883,196.6337389668325,-0.1428092400955594
+b_rfm_behav,all_test_users,51116,RandomForest (single-stage),RandomForest,21.407237856835366,169.16028772960013,0.15422567185711922
+b_rfm_behav,all_test_users,51116,"Hurdle: P[RandomForest, prior-corrected] x E[spend|buy]",RandomForest,19.270775010102458,164.30193089240205,0.20211003476219813
+b_rfm_behav,all_test_users,51116,"Hurdle: P[RandomForest, raw balanced] x E[spend|buy]",RandomForest,138.23699105842707,235.37268527467526,-0.6374565794676221
+b_rfm_behav,test_buyers_only,1276,LinearRegression (single-stage),RandomForest,427.1761918126208,859.1305907907943,0.33607556414157946
+b_rfm_behav,test_buyers_only,1276,RandomForest (single-stage),RandomForest,442.007418158399,992.576009158133,0.11380797999830472
+b_rfm_behav,test_buyers_only,1276,"Hurdle: P[RandomForest, prior-corrected] x E[spend|buy]",RandomForest,441.9472835846235,1001.1962796798919,0.09834843393521153
+b_rfm_behav,test_buyers_only,1276,"Hurdle: P[RandomForest, raw balanced] x E[spend|buy]",RandomForest,394.49171927395594,918.0900328179406,0.24182260453849858
+b_rfm_behav,test_buyers_only,1276,Stage-2 RF alone: E[spend|buy],,426.1865039310369,903.0902869228411,0.26639441391429364
+c_rfm_behav_cluster,all_test_users,51116,LinearRegression (single-stage),RandomForest,23.634512679026003,196.62373916208466,-0.14269300797036055
+c_rfm_behav_cluster,all_test_users,51116,RandomForest (single-stage),RandomForest,21.405706926740603,169.16870176539115,0.15414153210365877
+c_rfm_behav_cluster,all_test_users,51116,"Hurdle: P[RandomForest, prior-corrected] x E[spend|buy]",RandomForest,19.29573350636659,163.70117549855965,0.20793419485221531
+c_rfm_behav_cluster,all_test_users,51116,"Hurdle: P[RandomForest, raw balanced] x E[spend|buy]",RandomForest,137.47442624298273,235.26207680626,-0.6359179641591364
+c_rfm_behav_cluster,test_buyers_only,1276,LinearRegression (single-stage),RandomForest,427.1754569333617,859.1075181322338,0.3361112241362001
+c_rfm_behav_cluster,test_buyers_only,1276,RandomForest (single-stage),RandomForest,441.9258607121903,992.6255613203992,0.11371949543592985
+c_rfm_behav_cluster,test_buyers_only,1276,"Hurdle: P[RandomForest, prior-corrected] x E[spend|buy]",RandomForest,441.8453371610077,997.5113511455692,0.10497332325661912
+c_rfm_behav_cluster,test_buyers_only,1276,"Hurdle: P[RandomForest, raw balanced] x E[spend|buy]",RandomForest,394.48823555218326,918.6591829500354,0.2408822816853834
+c_rfm_behav_cluster,test_buyers_only,1276,Stage-2 RF alone: E[spend|buy],,426.3188561456277,903.2225815669691,0.26617946486661104

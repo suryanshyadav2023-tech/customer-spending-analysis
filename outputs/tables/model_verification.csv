@@ -1,0 +1,59 @@
+check,file,metric,expected,reproduced,abs_diff,full_precision_match,matches_RESULTS_md
+segmentation: users assigned to the stored segment,segmentation.joblib,mismatched users,0.0,0.0,0.0,True,
+a_rfm: RF classifier test probabilities,rf_clf_a_rfm.joblib,max |diff| vs stored,0.0,4.440892098500626e-16,4.440892098500626e-16,True,
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,accuracy,0.8928711166757962,0.8928711166757962,0.0,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,precision,0.1122599704579025,0.11225997045790251,1.3877787807814457e-17,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,recall,0.4764890282131661,0.47648902821316613,5.551115123125783e-17,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,f1,0.1817095038852361,0.1817095038852361,0.0,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,roc_auc,0.7022230542123511,0.7022230542123511,0.0,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,pr_auc,0.1703030787909846,0.1703030787909846,0.0,True,True
+a_rfm: RF classifier,rf_clf_a_rfm.joblib,f1_at_tuned_threshold,0.2347056560215467,0.23470565602154675,5.551115123125783e-17,True,True
+a_rfm: RF regressor test predictions,rf_reg_a_rfm.joblib,max |diff| vs stored,0.0,2.7284841053187847e-12,2.7284841053187847e-12,True,
+a_rfm: RF regressor (single-stage),rf_reg_a_rfm.joblib,MAE,21.500509120099835,21.500509120099835,0.0,True,True
+a_rfm: RF regressor (single-stage),rf_reg_a_rfm.joblib,RMSE,168.15259187194417,168.15259187194417,0.0,True,True
+a_rfm: RF regressor (single-stage),rf_reg_a_rfm.joblib,R2,0.1642722939384969,0.16427229393849696,5.551115123125783e-17,True,True
+a_rfm: hurdle test predictions,hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,max |diff| vs stored,0.0,1.8189894035458565e-12,1.8189894035458565e-12,True,
+a_rfm: hurdle (all_test_users),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,MAE,22.016905114417742,22.016905114417746,3.552713678800501e-15,True,True
+a_rfm: hurdle (all_test_users),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,RMSE,175.35148335868806,175.35148335868803,2.842170943040401e-14,True,True
+a_rfm: hurdle (all_test_users),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,R2,0.0911827605225654,0.0911827605225658,4.0245584642661925e-16,True,True
+a_rfm: hurdle (test_buyers_only),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,MAE,451.075266854027,451.075266854027,0.0,True,
+a_rfm: hurdle (test_buyers_only),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,RMSE,1009.733986245436,1009.733986245436,0.0,True,
+a_rfm: hurdle (test_buyers_only),hurdle_stage1_LogisticRegression_a_rfm.joblib + hurdle_stage2_a_rfm.joblib,R2,0.0829051903359789,0.08290519033597898,8.326672684688674e-17,True,
+b_rfm_behav: RF classifier test probabilities,rf_clf_b_rfm_behav.joblib,max |diff| vs stored,0.0,5.551115123125783e-16,5.551115123125783e-16,True,
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,accuracy,0.819312935284451,0.819312935284451,0.0,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,precision,0.0845511482254697,0.08455114822546973,2.7755575615628914e-17,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,recall,0.6347962382445141,0.6347962382445141,0.0,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,f1,0.1492262343404569,0.1492262343404569,0.0,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,roc_auc,0.7972922206861328,0.7972922206861328,0.0,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,pr_auc,0.2025779223112485,0.20257792231124852,2.7755575615628914e-17,True,True
+b_rfm_behav: RF classifier,rf_clf_b_rfm_behav.joblib,f1_at_tuned_threshold,0.2445236882322974,0.24452368823229748,8.326672684688674e-17,True,True
+b_rfm_behav: RF regressor test predictions,rf_reg_b_rfm_behav.joblib,max |diff| vs stored,0.0,9.094947017729282e-13,9.094947017729282e-13,True,
+b_rfm_behav: RF regressor (single-stage),rf_reg_b_rfm_behav.joblib,MAE,21.40723785683537,21.407237856835366,3.552713678800501e-15,True,True
+b_rfm_behav: RF regressor (single-stage),rf_reg_b_rfm_behav.joblib,RMSE,169.16028772960013,169.16028772960013,0.0,True,True
+b_rfm_behav: RF regressor (single-stage),rf_reg_b_rfm_behav.joblib,R2,0.1542256718571192,0.15422567185711922,2.7755575615628914e-17,True,True
+b_rfm_behav: hurdle test predictions,rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,max |diff| vs stored,0.0,3.0468072509393096e-11,3.0468072509393096e-11,True,
+b_rfm_behav: hurdle (all_test_users),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,MAE,19.270775010102454,19.270775010102458,3.552713678800501e-15,True,True
+b_rfm_behav: hurdle (all_test_users),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,RMSE,164.30193089240203,164.30193089240203,0.0,True,True
+b_rfm_behav: hurdle (all_test_users),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,R2,0.2021100347621981,0.20211003476219846,3.608224830031759e-16,True,True
+b_rfm_behav: hurdle (test_buyers_only),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,MAE,441.9472835846235,441.9472835846235,0.0,True,
+b_rfm_behav: hurdle (test_buyers_only),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,RMSE,1001.196279679892,1001.1962796798919,1.1368683772161603e-13,True,
+b_rfm_behav: hurdle (test_buyers_only),rf_clf_b_rfm_behav.joblib + hurdle_stage2_b_rfm_behav.joblib,R2,0.0983484339352115,0.09834843393521153,2.7755575615628914e-17,True,
+c_rfm_behav_cluster: RF classifier test probabilities,rf_clf_c_rfm_behav_cluster.joblib,max |diff| vs stored,0.0,4.440892098500626e-16,4.440892098500626e-16,True,
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,accuracy,0.8105094295328273,0.8105094295328273,0.0,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,precision,0.081342094782955,0.081342094782955,0.0,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,recall,0.640282131661442,0.640282131661442,0.0,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,f1,0.1443462897526501,0.14434628975265018,8.326672684688674e-17,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,roc_auc,0.7955134250919558,0.7955134250919558,0.0,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,pr_auc,0.2028609103821753,0.20286091038217538,8.326672684688674e-17,True,True
+c_rfm_behav_cluster: RF classifier,rf_clf_c_rfm_behav_cluster.joblib,f1_at_tuned_threshold,0.2582345191040843,0.2582345191040843,0.0,True,True
+c_rfm_behav_cluster: RF regressor test predictions,rf_reg_c_rfm_behav_cluster.joblib,max |diff| vs stored,0.0,9.094947017729282e-13,9.094947017729282e-13,True,
+c_rfm_behav_cluster: RF regressor (single-stage),rf_reg_c_rfm_behav_cluster.joblib,MAE,21.405706926740603,21.405706926740603,0.0,True,True
+c_rfm_behav_cluster: RF regressor (single-stage),rf_reg_c_rfm_behav_cluster.joblib,RMSE,169.16870176539115,169.16870176539115,0.0,True,True
+c_rfm_behav_cluster: RF regressor (single-stage),rf_reg_c_rfm_behav_cluster.joblib,R2,0.1541415321036587,0.15414153210365877,8.326672684688674e-17,True,True
+c_rfm_behav_cluster: hurdle test predictions,rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,max |diff| vs stored,0.0,1.6370904631912708e-11,1.6370904631912708e-11,True,
+c_rfm_behav_cluster: hurdle (all_test_users),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,MAE,19.29573350636659,19.29573350636659,0.0,True,True
+c_rfm_behav_cluster: hurdle (all_test_users),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,RMSE,163.70117549855965,163.70117549855965,0.0,True,True
+c_rfm_behav_cluster: hurdle (all_test_users),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,R2,0.2079341948522153,0.20793419485221531,2.7755575615628914e-17,True,True
+c_rfm_behav_cluster: hurdle (test_buyers_only),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,MAE,441.8453371610077,441.84533716100776,5.684341886080802e-14,True,
+c_rfm_behav_cluster: hurdle (test_buyers_only),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,RMSE,997.5113511455692,997.5113511455692,0.0,True,
+c_rfm_behav_cluster: hurdle (test_buyers_only),rf_clf_c_rfm_behav_cluster.joblib + hurdle_stage2_c_rfm_behav_cluster.joblib,R2,0.1049733232566191,0.10497332325661912,2.7755575615628914e-17,True,

@@ -1,0 +1,17 @@
+feature,impurity_importance,label
+recency_days,0.13822859952970515,Recency (days since last purchase)
+seg_casual_visitors,0.12688177666044995,Segment: Casual visitors
+monetary,0.11381935206283207,Monetary (total purchase value)
+days_since_last_event,0.10485434759819555,Days since last event
+frequency,0.08140842048496431,Frequency (purchases)
+has_purchased,0.07607934683462032,Has purchased (0/1)
+avg_session_duration,0.07017847461838389,Avg session duration (min)
+n_views,0.051443953766856974,Product views
+n_sessions,0.049879293019136045,Sessions
+seg_recent_buyers,0.04636382429769873,Segment: Recent buyers
+seg_engaged_browsers,0.037100773323105615,Segment: Engaged browsers
+purchase_to_cart_ratio,0.02780572543495202,Purchase-to-cart ratio
+days_active,0.025391912009669285,Days active
+cart_to_view_ratio,0.02000464694500046,Cart-to-view ratio
+n_categories,0.018837486438559977,Distinct categories viewed
+n_carts,0.011722066975869727,Add-to-cart events

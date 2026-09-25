@@ -1,0 +1,31 @@
+segment,ranking,n_shap_rows,rank,feature,label,mean_abs_shap,mean_shap_signed
+Casual visitors,all_features,1000,1,days_since_last_event,Days since last event,0.04827314947631343,-0.030199225591077402
+Casual visitors,all_features,1000,2,recency_days,Recency (days since last purchase),0.04304605034568459,-0.04292113295270574
+Casual visitors,all_features,1000,3,seg_casual_visitors,Segment: Casual visitors,0.03873049159315741,-0.03873049159315741
+Casual visitors,all_features,1000,4,avg_session_duration,Avg session duration (min),0.034518297621641846,-0.00730545973680775
+Casual visitors,all_features,1000,5,monetary,Monetary (total purchase value),0.030576351293208414,-0.0305042980817583
+Casual visitors,excluding_seg_dummies,1000,1,days_since_last_event,Days since last event,0.04827314947631343,-0.030199225591077402
+Casual visitors,excluding_seg_dummies,1000,2,recency_days,Recency (days since last purchase),0.04304605034568459,-0.04292113295270574
+Casual visitors,excluding_seg_dummies,1000,3,avg_session_duration,Avg session duration (min),0.034518297621641846,-0.00730545973680775
+Casual visitors,excluding_seg_dummies,1000,4,monetary,Monetary (total purchase value),0.030576351293208414,-0.0305042980817583
+Casual visitors,excluding_seg_dummies,1000,5,frequency,Frequency (purchases),0.021987822395301546,-0.021903182941175443
+Engaged browsers,all_features,1000,1,days_since_last_event,Days since last event,0.06175381331717731,-0.012400312802479878
+Engaged browsers,all_features,1000,2,seg_casual_visitors,Segment: Casual visitors,0.04327446610894883,0.043274466108948785
+Engaged browsers,all_features,1000,3,recency_days,Recency (days since last purchase),0.039483947567529425,-0.03948394756752947
+Engaged browsers,all_features,1000,4,monetary,Monetary (total purchase value),0.025188334042961658,-0.02518833404296166
+Engaged browsers,all_features,1000,5,seg_engaged_browsers,Segment: Engaged browsers,0.022902662665080172,0.02277170060498217
+Engaged browsers,excluding_seg_dummies,1000,1,days_since_last_event,Days since last event,0.06175381331717731,-0.012400312802479878
+Engaged browsers,excluding_seg_dummies,1000,2,recency_days,Recency (days since last purchase),0.039483947567529425,-0.03948394756752947
+Engaged browsers,excluding_seg_dummies,1000,3,monetary,Monetary (total purchase value),0.025188334042961658,-0.02518833404296166
+Engaged browsers,excluding_seg_dummies,1000,4,frequency,Frequency (purchases),0.01996089417726442,-0.019960894177264415
+Engaged browsers,excluding_seg_dummies,1000,5,days_active,Days active,0.01849996229069243,0.00903614047925611
+Recent buyers,all_features,1000,1,days_since_last_event,Days since last event,0.060501769745546025,-0.025295000547087703
+Recent buyers,all_features,1000,2,recency_days,Recency (days since last purchase),0.05172004204183098,0.048289388941186444
+Recent buyers,all_features,1000,3,monetary,Monetary (total purchase value),0.046857344160521126,0.04662352384411239
+Recent buyers,all_features,1000,4,has_purchased,Has purchased (0/1),0.04266565180901249,0.042598412689819655
+Recent buyers,all_features,1000,5,seg_casual_visitors,Segment: Casual visitors,0.03368508012212096,0.03368508012212094
+Recent buyers,excluding_seg_dummies,1000,1,days_since_last_event,Days since last event,0.060501769745546025,-0.025295000547087703
+Recent buyers,excluding_seg_dummies,1000,2,recency_days,Recency (days since last purchase),0.05172004204183098,0.048289388941186444
+Recent buyers,excluding_seg_dummies,1000,3,monetary,Monetary (total purchase value),0.046857344160521126,0.04662352384411239
+Recent buyers,excluding_seg_dummies,1000,4,has_purchased,Has purchased (0/1),0.04266565180901249,0.042598412689819655
+Recent buyers,excluding_seg_dummies,1000,5,frequency,Frequency (purchases),0.032762658408055964,0.031888318130514105

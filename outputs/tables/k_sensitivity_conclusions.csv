@@ -1,0 +1,12 @@
+check,criterion,K=2 value,K=2 result,K=3 value,K=3 result,K=4 value,K=4 result,K=2: same conclusion as K=3,K=4: same conclusion as K=3
+"(c) minus (b) test ROC-AUC, LogisticRegression [95% CI]",(c) significantly better: CI low > 0,"-0.0002 [-0.0010, +0.0003]",does not hold,"+0.0036 [-0.0001, +0.0074]",does not hold,"+0.0039 [+0.0004, +0.0076]",holds,yes,NO
+"(c) minus (b) test ROC-AUC, DecisionTree [95% CI]",(c) significantly better: CI low > 0,"-0.0000 [-0.0001, +0.0000]",does not hold,"-0.0024 [-0.0087, +0.0035]",does not hold,"+0.0011 [-0.0060, +0.0083]",does not hold,yes,yes
+"(c) minus (b) test ROC-AUC, RandomForest [95% CI]",(c) significantly better: CI low > 0,"-0.0004 [-0.0014, +0.0006]",does not hold,"-0.0018 [-0.0035, -0.0002]",does not hold,"-0.0018 [-0.0034, -0.0001]",does not hold,yes,yes
+"Hurdle (c) minus single-stage RF (c), RMSE [95% CI]",hurdle better: CI high < 0,"-5.3488 [-11.0530, -0.3687]",holds,"-5.6706 [-11.1757, -0.8539]",holds,"-5.4354 [-11.2385, -0.5195]",holds,yes,yes
+"Hurdle (c) minus single-stage RF (c), MAE [95% CI]",hurdle better: CI high < 0,"-2.0590 [-2.3602, -1.7602]",holds,"-2.1153 [-2.4082, -1.8244]",holds,"-2.1236 [-2.4197, -1.8240]",holds,yes,yes
+"Hurdle test RMSE, (c) vs (b)",(c) lower than (b),c=164.028 vs b=164.302,holds,c=163.701 vs b=164.302,holds,c=163.951 vs b=164.302,holds,yes,yes
+Stage-1 classifier chosen for (c) by validation ROC-AUC,same model as K=3,RandomForest,,RandomForest,,RandomForest,,yes,yes
+"RF validation ROC-AUC, (c) vs (b)",(c) > (b) (decides which RF is explained by SHAP),c=0.8071 vs b=0.8063,holds,c=0.8082 vs b=0.8063,holds,c=0.8079 vs b=0.8063,holds,yes,yes
+Segments found,same segment types as K=3,Casual visitors | Recent buyers,,Casual visitors | Engaged browsers | Recent buyers,,"Casual visitors | Engaged browsers | Recent buyers, low spend | Recent buyers, high spend",,NO,yes
+Buyer segment(s) have the highest Oct 25-31 purchase rate,yes,yes,holds,yes,holds,yes,holds,yes,yes
+An 'Engaged browsers' segment exists,yes,no,does not hold,yes,holds,yes,holds,NO,yes

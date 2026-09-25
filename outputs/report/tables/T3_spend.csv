@@ -1,0 +1,25 @@
+Feature set,Evaluated on,n,Model,MAE,MAE CI low,MAE CI high,RMSE,RMSE CI low,RMSE CI high,R²,R² CI low,R² CI high
+(a) RFM,All test users,51116,Linear Regression (single-stage),23.5623,22.1543,25.3528,196.5335,136.0764,280.5188,-0.1416,-2.2154,0.528
+(a) RFM,All test users,51116,Decision Tree (single-stage),21.8236,20.5027,23.4016,173.4235,133.6391,225.1626,0.1111,-0.1272,0.2167
+(a) RFM,All test users,51116,Random Forest (single-stage),21.5005,20.2395,23.0495,168.1526,130.5821,216.9335,0.1643,-0.0956,0.2879
+(a) RFM,All test users,51116,Hurdle: P(buy) x E[spend | buy],22.0169,20.6523,23.6835,175.3515,139.1656,220.3634,0.0912,-0.3036,0.2811
+(a) RFM,Test buyers only,1276,Linear Regression (single-stage),429.2907,394.0393,472.7892,859.0921,718.4198,1018.0278,0.3361,-0.1315,0.6143
+(a) RFM,Test buyers only,1276,Decision Tree (single-stage),455.8832,413.4347,510.9669,1024.2493,758.1153,1370.4804,0.0563,-0.2508,0.1781
+(a) RFM,Test buyers only,1276,Random Forest (single-stage),440.6146,401.1013,492.743,987.8474,734.772,1308.3275,0.1222,-0.1934,0.263
+(a) RFM,Test buyers only,1276,Hurdle: P(buy) x E[spend | buy],451.0753,410.2114,505.4564,1009.734,769.1851,1304.3583,0.0829,-0.3409,0.2751
+(b) RFM + behavioral,All test users,51116,Linear Regression (single-stage),23.622,22.2021,25.4159,196.6337,135.9238,280.8958,-0.1428,-2.2203,0.5273
+(b) RFM + behavioral,All test users,51116,Decision Tree (single-stage),21.7639,20.4631,23.3401,174.883,134.5812,226.2246,0.096,-0.1498,0.207
+(b) RFM + behavioral,All test users,51116,Random Forest (single-stage),21.4072,20.1403,22.969,169.1603,131.8907,217.2417,0.1542,-0.1156,0.2793
+(b) RFM + behavioral,All test users,51116,Hurdle: P(buy) x E[spend | buy],19.2708,18.0435,20.8936,164.3019,123.9448,213.1524,0.2021,0.0284,0.2973
+(b) RFM + behavioral,Test buyers only,1276,Linear Regression (single-stage),427.1762,392.0856,470.9127,859.1306,717.5514,1019.0067,0.3361,-0.1314,0.6141
+(b) RFM + behavioral,Test buyers only,1276,Decision Tree (single-stage),457.3182,415.2924,515.1807,1032.8702,761.5036,1374.1345,0.0404,-0.2803,0.177
+(b) RFM + behavioral,Test buyers only,1276,Random Forest (single-stage),442.0074,401.8852,494.2133,992.576,740.2365,1308.6071,0.1138,-0.2114,0.2556
+(b) RFM + behavioral,Test buyers only,1276,Hurdle: P(buy) x E[spend | buy],441.9473,401.0236,494.2156,1001.1963,735.5705,1324.4303,0.0983,-0.1882,0.2396
+(c) RFM + behavioral + segment,All test users,51116,Linear Regression (single-stage),23.6345,22.2167,25.4305,196.6237,135.9194,280.8797,-0.1427,-2.2199,0.5273
+(c) RFM + behavioral + segment,All test users,51116,Decision Tree (single-stage),21.7415,20.4439,23.3274,174.8802,134.5824,226.2276,0.0961,-0.1497,0.2071
+(c) RFM + behavioral + segment,All test users,51116,Random Forest (single-stage),21.4057,20.1373,22.9622,169.1687,131.8994,217.2459,0.1541,-0.1158,0.2793
+(c) RFM + behavioral + segment,All test users,51116,Hurdle: P(buy) x E[spend | buy],19.2957,18.0676,20.9122,163.7012,123.8386,212.133,0.2079,0.0339,0.3036
+(c) RFM + behavioral + segment,Test buyers only,1276,Linear Regression (single-stage),427.1755,392.0546,470.934,859.1075,717.5426,1018.9774,0.3361,-0.1315,0.6141
+(c) RFM + behavioral + segment,Test buyers only,1276,Decision Tree (single-stage),457.6221,415.6312,515.4918,1032.8916,761.5918,1374.1475,0.0404,-0.2799,0.177
+(c) RFM + behavioral + segment,Test buyers only,1276,Random Forest (single-stage),441.9259,401.7327,494.1333,992.6256,740.3143,1308.6463,0.1137,-0.2116,0.2555
+(c) RFM + behavioral + segment,Test buyers only,1276,Hurdle: P(buy) x E[spend | buy],441.8453,400.8178,493.7325,997.5114,734.7651,1316.4925,0.105,-0.1861,0.2474
